@@ -1,4 +1,4 @@
-# Registration Service
+# Infraction Service
 ## Under development... 🚀
 ### Architecture
 ![Architecture](assets/Architecture.png)

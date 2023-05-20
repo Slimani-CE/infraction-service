@@ -27,8 +27,8 @@ public class InfractionServiceApplication implements CommandLineRunner {
 					.vehicleSpeed(110.0 + i*10)
 					.radarMaxSpeed(100.0 + i*10)
 					.fineAmount(100.0 + i*10)
-					.radarId(null)
-					.vehicleId(null)
+					.radarId(3L)
+					.vehicleId(5L)
 					.build();
 			infractionRepository.save(infraction);
 			System.out.println(infraction);
